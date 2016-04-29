@@ -18,10 +18,10 @@ namespace RealtimeTweeter.Hubs
         public static async Task StartStream(CancellationToken token)
         {
             // Go to https://apps.twitter.com to get your own tokens.
-            Auth.SetUserCredentials("sTHGrHny1oDSAoCIJ1HOMorLr",
-                "bFeBKjOBFiedReKXGuzJfeMrF5e6F4kePftKBzTEYxIiVTQf1D",
-                "3250802522-hatYQjNv6aBHtZon9inaDzpWi3dNUTAYxNsWZb3",
-                "hpztKrdaO3BkElPeUdcdK5M1hRv5k28Xqwh3Q2Z9RPPdN");
+            Auth.SetUserCredentials("CONSUMER_KEY",
+                "CONSUMER_SECRET",
+                "ACCESS_TOKEN",
+                "ACCESS_TOKEN_SECRET");
 
             if (_stream == null)
             {
